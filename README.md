@@ -30,6 +30,10 @@ p_app_id = "com.your.appid"     # config.py L:2
 
 * Replay `com.your.appid` with you android application id.
 
+* Edit file modules/GodotGoogleService/values/ids.xml and insert your correct game id
+
+* Copy your file 'google-services.json' platform/android/java/
+
 # Initialize GodotGoogleService
 
 Edit engine.cfg and add
