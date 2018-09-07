@@ -2,10 +2,10 @@
 
 GodotGoogleService is a google play games integration for godot android;
 
-[![Platform](https://img.shields.io/badge/Platform-Android-green.svg)](https://github.com/FrogSquare/GodotFireBase)
+[![Platform](https://img.shields.io/badge/Platform-Android-green.svg)](https://github.com/ClaudioEden/GodotFireBase)
 [![GodotEngine](https://img.shields.io/badge/Godot_Engine-2.X%20/%203.X-blue.svg)](https://github.com/godotengine/godot)
 [![LICENCE](https://img.shields.io/badge/License-Apache_V2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-[![PATREON](https://img.shields.io/badge/Patreon-support-yellow.svg)](https://www.patreon.com/bePatron?u=5130479)
+[![PATREON](https://img.shields.io/badge/Patreon-support-yellow.svg)](https://www.patreon.com/claudioeden)
 
 # Depends on
 
