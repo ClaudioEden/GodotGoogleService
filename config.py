@@ -13,10 +13,10 @@ def configure(env):
         env.android_add_gradle_classpath("com.google.gms:google-services:3.1.1")
         env.android_add_gradle_plugin("com.google.gms.google-services")
 
-        env.android_add_dependency("compile 'com.google.android.gms:play-services-auth:11.6.0'")
-        env.android_add_dependency("compile 'com.google.android.gms:play-services-games:11.6.0'")
-
-	env.android_add_dependency("compile 'com.google.firebase:firebase-invites:11.6.0'")
+        env.android_add_dependency("compile 'com.google.android.gms:play-services-auth:15.0.0'")
+        env.android_add_dependency("compile 'com.google.android.gms:play-services-games:15.0.0'")
+	env.android_add_dependency("compile 'com.google.firebase:firebase-core:15.0.0'")
+	env.android_add_dependency("compile 'com.google.firebase:firebase-invites:15.0.0'")
 
         env.android_add_java_dir("android");
         env.android_add_res_dir("res");
