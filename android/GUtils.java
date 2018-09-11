@@ -58,7 +58,7 @@ public class GUtils {
 	}
 
 	public static void callScriptFunc(int script_id, String key, String value) {
-		GodotLib.calldeferred(script_id, "_receive_message", new Object[] { TAG, key, value });
+		GodotLib.calldeferred(script_id, "_receive_message", new Object[] { TAG, FROM, key, value });
 	}
 
 	public static void callScriptFunc(String key, String value) {
@@ -68,7 +68,7 @@ public class GUtils {
 		}
 
 		GodotLib.calldeferred(script_instanceID, "_receive_message",
-		new Object[] { TAG, key, value });
+		new Object[] { TAG, FROM, key, value });
 	}
 
 	public static boolean checkGooglePlayService(Activity activity) {
@@ -77,4 +77,5 @@ public class GUtils {
 
 	public static int script_instanceID = -1;
 	private static final String TAG = "GooglePlay";
+	private static final String FROM = "BYEDEN";
 }
